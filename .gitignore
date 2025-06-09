@@ -6,7 +6,7 @@
 #    By: Maurice809 <maurice809@hotmail.com>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/09/22 17:24:37 by Maurice809        #+#    #+#              #
-#    Updated: 2025/06/09 09:07:24 by Maurice809       ###    ########          #
+#    Updated: 2025/06/09 09:42:27 by Maurice809       ###    Lausanne.ch       #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@
 
 # ingnore directory
 **/util
-**/Doc
+#**/Doc
 
 # ingnore vi temp
 *.swp
