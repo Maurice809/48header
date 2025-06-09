@@ -1,53 +1,54 @@
-# **42 Header**
 
-42 (Paris)
+# **48 En-tête**
+
+48 (Lausanne)
 
 ### **Description**
 
-42 standard header for vim editor.
+En-tête standard 48 pour l'éditeur Vim.
 
-![42 header](img/42header.jpg)
+![En-tête 48](img/48header.jpg)
 
-### **UNIX Setup**
+### **Configuration UNIX**
 
-Copy `stdheader.vim` in your `~/.vim/plugin`, or use your favorite plugin
-manager. Then set the user and mail variables as explained below.
+Copiez `stdheader.vim` dans votre répertoire `~/.vim/plugin`, ou utilisez votre gestionnaire de plugins préféré. Ensuite, définissez les variables utilisateur et mail comme expliqué ci-dessous.
 
-#### Option 1: export USER and MAIL in your shell configuration file
+#### Option 1 : exportez USER et MAIL dans le fichier de configuration de votre shell
 
-Add in `~/.zshrc` your:
+Ajoutez dans votre fichier `~/.zshrc` :
 
 + `USER`
 + `MAIL`
 
-#### Option 2: set user and mail values directly in your vimrc
+#### Option 2 : définissez les valeurs de user et mail directement dans votre vimrc
 
 ```vim
-let g:user42 = 'yourLogin'
-let g:mail42 = 'yourLogin@student.42.fr'
+let g:user48 = 'votreLogin'
+let g:mail48 = 'votreLogin@student.48lausanne.ch'
 ```
 
-### **Usage**
+### **Utilisation**
 
-In **NORMAL** mode you can use `:Stdheader` or simply press the shortcut <kbd>F1</kbd>.
+En mode **NORMAL**, vous pouvez utiliser `:Stdheader` ou simplement appuyer sur le raccourci <kbd>F1</kbd>.
 
-Under **Linux** you eventually need to disable the **help** shortcut of your **terminal** :
+Sous **Linux**, vous devrez éventuellement désactiver le raccourci **help** de votre **terminal** :
 
-For **Terminator**, right click -> Preferences -> Shortcuts -> change help with something other than <kbd>F1</kbd>
+Pour **Terminator**, faites un clic droit -> Préférences -> Raccourcis -> changez l'aide pour un autre raccourci que <kbd>F1</kbd>.
 
-### **Note**
+### **Remarque**
 
-Inside the **42 clusters** you can easily run:
+Dans les clusters de **48**, vous pouvez facilement exécuter :
 
 `$ ./set_header.sh`
 
-### **Credits**
+### **Crédits**
 
-[@zazard](https://github.com/zazard) - creator  
-[@alexandregv](https://github.com/alexandregv) - contributor  
-[@mjacq42](https://github.com/mjacq42) - contributor  
-[@sungmcho](https://github.com/lordtomi0325) - contributor  
+[@zazard](https://github.com/zazard) - créateur  
+[@alexandregv](https://github.com/alexandregv) - contributeur  
+[@mjacq42](https://github.com/mjacq42) - contributeur  
+[@sungmcho](https://github.com/lordtomi0325) - contributeur  
+[@tmoret](https://github.com/maurice809) - contributeur
 
-### **License**
+### **Licence**
 
-This work is published under the terms of **[42 Unlicense](https://github.com/gcamerli/42unlicense)**.
+Ce travail est publié sous les termes de la **[48 Unlicense]**.
