@@ -1,0 +1,13 @@
+[Event ""]
+[Site ""]
+[Date "2025.07.12"]
+[Round ""]
+[White "mort0707"]
+[Black "GNU Chess 6.2.11"]
+[WhiteELO "0"]
+[BlackELO "0"]
+[Result "0-1"]
+
+1. e4 Nf6 2. f3 e5 3. d3 Nc6 4. Bg5 h6 5. Bxf6 Qxf6 6. Ne2 Bc5 7. f4 exf4 8.
+Nxf4 Qxf4 9. g3 Qf2# 0-1 {Xboard adjudication: Checkmate}
+

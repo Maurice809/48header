@@ -81,23 +81,23 @@ function! s:line(n)
 endfunction
 
 function! s:user()
-	if exists('g:user42')
-		return g:user42
+	if exists('g:user48')
+		return g:user48
 	endif
 	let l:user = $USER
 	if strlen(l:user) == 0
-		let l:user = "marvin"
+		let l:user = "Maurice809"
 	endif
 	return l:user
 endfunction
 
 function! s:mail()
-	if exists('g:mail42')
-		return g:mail42
+	if exists('g:mail48')
+		return g:mail48
 	endif
 	let l:mail = $MAIL
 	if strlen(l:mail) == 0
-		let l:mail = "marvin@42.fr"
+		let l:mail = "maurice809@hotmail.com"
 	endif
 	return l:mail
 endfunction
@@ -147,5 +147,5 @@ endfunction
 
 " Bind command and shortcut
 command! Stdheader call s:stdheader ()
-map <F1> :Stdheader<CR>
+map <F2> :Stdheader<CR>
 autocmd BufWritePre * call s:update ()
