@@ -6,7 +6,7 @@
 #    By: Maurice809 <maurice809@hotmail.com>        +#+  +:+    +#++:++#       #
 #                                                 +#+#+#+#+#+ +#+    +#+       #
 #    Created: 2025/06/09 08:53:46 by Maurice809        #+#   #+#    #+#        #
-#    Updated: 2025/08/10 12:10:40 by Maurice809       ###    ########          #
+#    Updated: 2025/08/10 12:20:35 by Maurice809       ###    ########          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -37,7 +37,6 @@ mkdir -p ~/.vim/plugin
 
 # Add stdheader to vim plugins
 cp plugin/stdheader.vim ~/.vim/plugin/
+cp plugin/auto-pairs.vim ~/.vim/plugin/
 cp conf/.vimrc ~/
 cp conf/.viminfo ~/
-
-source ~/.bashrc
